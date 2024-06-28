@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static\indexStylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+    <section id="up"></section>
+    <section id="down"></section>
+    <section id="left"></section>
+    <section id="right"></section>
+
+
+
+    <nav>
+        <div class="logo">
+            <h1 class="logoHeading">Music <br> Recommendation <br> System.</h1>
+        </div>
+        <ul class="navList">
+            <li><a href="https://github.com/amideo-7/MusicRecommendationSystem.git">Code</a></li>
+            <li><a href="https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge/dataset_files">Dataset</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+
+
+    <section id="formSection">
+        <div class="inputDiv">
+            <form action='/predict' method="post">
+                <h1 class="formHeading">Melodies <br> Tailored Just For You</h1>
+                <br>
+                <input type="text" name="input" placeholder="Name a Song" required><br><br>
+                <button type="submit">Get Music</button>
+            </form>
+            <!-- <br><br>
+            <h2 class="output">{{pred}}</h2> -->
+        </div>
+    </section>
+
+
+
+</body>
+</html>
